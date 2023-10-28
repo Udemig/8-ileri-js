@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 14px;
+}
+nav a {
+  text-decoration: none;
+  text-shadow: 0 0 20px red;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+aside {
+  border: 1px solid gray;
+  background: rgb(205, 206, 205);
+  padding: 6px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  padding: 60px;
+}
+
+input,
+select,
+textarea {
+  margin-bottom: 30px;
+}
