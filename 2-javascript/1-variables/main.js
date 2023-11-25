@@ -114,5 +114,3 @@ function alanBul(uzun, kisa) {
 var alan = alanBul(50, 30);
 
 document.write('Kısa kenar 30 ve uzun kenar 50 ise alan: ' + alan);
-
-// Strşng Methodları
